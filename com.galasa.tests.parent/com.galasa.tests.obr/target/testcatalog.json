@@ -1,0 +1,41 @@
+{
+  "classes": {
+    "com.galasa.tests.genapp/com.galasa.tests.genapp.GenAppCustAddGeneralInsurance": {
+      "name": "com.galasa.tests.genapp.GenAppCustAddGeneralInsurance",
+      "bundle": "com.galasa.tests.genapp",
+      "shortName": "GenAppCustAddGeneralInsurance",
+      "package": "com.galasa.tests.genapp"
+    },
+    "com.galasa.tests.genapp/com.galasa.tests.genapp.GenAppCustInquiryGeneralInsurance": {
+      "name": "com.galasa.tests.genapp.GenAppCustInquiryGeneralInsurance",
+      "bundle": "com.galasa.tests.genapp",
+      "shortName": "GenAppCustInquiryGeneralInsurance",
+      "package": "com.galasa.tests.genapp"
+    }
+  },
+  "packages": {
+    "com.galasa.tests.genapp": [
+      "com.galasa.tests.genapp/com.galasa.tests.genapp.GenAppCustAddGeneralInsurance",
+      "com.galasa.tests.genapp/com.galasa.tests.genapp.GenAppCustInquiryGeneralInsurance"
+    ]
+  },
+  "bundles": {
+    "com.galasa.tests.manager": {
+      "packages": {}
+    },
+    "com.galasa.tests.genapp": {
+      "packages": {
+        "com.galasa.tests.genapp": [
+          "com.galasa.tests.genapp/com.galasa.tests.genapp.GenAppCustAddGeneralInsurance",
+          "com.galasa.tests.genapp/com.galasa.tests.genapp.GenAppCustInquiryGeneralInsurance"
+        ]
+      }
+    }
+  },
+  "sharedEnvironments": {},
+  "gherkin": {},
+  "name": "com.galasa.tests.obr",
+  "build": "com.galasa.tests:com.galasa.tests.obr:0.1.0-SNAPSHOT - 2021-05-01T00:46:42.841Z",
+  "version": "0.1.0-SNAPSHOT",
+  "built": "2021-05-01T00:46:42.841Z"
+}

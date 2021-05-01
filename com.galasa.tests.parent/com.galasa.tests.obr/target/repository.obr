@@ -1,0 +1,30 @@
+<repository name='com.galasa.tests:com.galasa.tests.obr:0.1.0-SNAPSHOT' lastmodified='20210501061642.825'>
+  <resource id='com.galasa.tests.genapp/0.1.0.SNAPSHOT' symbolicname='com.galasa.tests.genapp' presentationname='com.galasa.tests.genapp' uri='mvn:com.galasa.tests/com.galasa.tests.genapp/0.1.0-SNAPSHOT/jar' version='0.1.0.SNAPSHOT'>
+    <size>6965</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.galasa.tests.genapp'/>
+      <p n='presentationname' v='com.galasa.tests.genapp'/>
+      <p n='version' t='version' v='0.1.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.galasa.tests.genapp'/>
+      <p n='version' t='version' v='0.1.0'/>
+      <p n='uses:' v='dev.galasa,dev.galasa.zos,dev.galasa.zos3270,dev.galasa.zos3270.spi'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=dev.galasa)(version&gt;=0.14.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package dev.galasa;version="[0.14,1)"</require>
+    <require name='package' filter='(&amp;(package=dev.galasa.zos)(version&gt;=0.14.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package dev.galasa.zos;version="[0.14,1)"</require>
+    <require name='package' filter='(&amp;(package=dev.galasa.zos3270)(version&gt;=0.14.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package dev.galasa.zos3270;version="[0.14,1)"</require>
+    <require name='package' filter='(&amp;(package=dev.galasa.zos3270.spi)(version&gt;=0.14.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package dev.galasa.zos3270.spi;version="[0.14,1)"</require>
+    <require name='package' filter='(&amp;(package=org.assertj.core.api)(version&gt;=3.11.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='false'>Import package org.assertj.core.api;version="[3.11,4)"</require>
+  </resource>
+  <resource id='com.galasa.tests.manager/0.1.0.SNAPSHOT' symbolicname='com.galasa.tests.manager' presentationname='com.galasa.tests.manager' uri='mvn:com.galasa.tests/com.galasa.tests.manager/0.1.0-SNAPSHOT/jar' version='0.1.0.SNAPSHOT'>
+    <size>1911</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.galasa.tests.manager'/>
+      <p n='presentationname' v='com.galasa.tests.manager'/>
+      <p n='version' t='version' v='0.1.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+  </resource>
+</repository>

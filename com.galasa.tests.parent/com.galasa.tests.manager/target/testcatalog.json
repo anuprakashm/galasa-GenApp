@@ -1,0 +1,10 @@
+{
+  "classes": {},
+  "packages": {},
+  "bundles": {
+    "com.galasa.tests.manager": {
+      "packages": {}
+    }
+  },
+  "sharedEnvironments": {}
+}
