@@ -129,6 +129,12 @@ public class GenAppCustInquiryGeneralInsurance {
         
         // Assert that no data returned for custoemr number 100 
         assertThat(terminal.retrieveScreen()).containsOnlyOnce("No data was returned.");        
+
+        // Exit SSC1 transaction 
+        terminal.pf3();
+        TimeUnit.SECONDS.sleep(2);
+        assertThat(terminal.retrieveScreen()).containsOnlyOnce("Transaction ended");        
+	    
     }
     
 }
